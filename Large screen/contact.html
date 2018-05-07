@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container justify-content: space-between" style="width: 95%">
+      <a class="navbar-brand nav-link active bg-info text-white" style="font-size: 180%" href="./index.html">Juan Santos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-nav" style="font-size: 120%">
+        <a class="nav-item nav-link" href="./index.html">About</a>
+        <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" style="margin-top: 3%">
+    <div class="row">
+      <div class="col-md-6" id="right-line">
+          <form>
+              <div class="form-group">
+                  <label class="text-white" for="exampleFormControlInput1">Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+                </div>
+              <div class="form-group">
+                <label class="text-white" for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label class="text-white" for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </form>
+      </div>
+      <div class="col-md-6">
+          <div class="container" style="width: 100%">
+              <div class="col-md-6">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <h3 class="text-light">Connect with me</h3>
+                      </div>
+                  </div>
+
+                  <!--Link section-->
+                  <div class="row">
+                      <!--GitHub link-->
+                      <div class="col-md-4">
+                          <a class="nav-link" href="https://github.com/jsantos09" target="_blank">
+                              <img src="./assets/github-link.png" width="50" style="margin: 5%">
+                          </a>
+                      </div>
+                      <!--Linkedin link-->
+                      <div class="col-md-4">
+                          <a class="nav-link" href="https://www.linkedin.com/in/jsantos54" target="_blank">
+                              <!--add a margin-->
+                              <img src="./assets/linkedin.png" width="50" style="margin: 5%">
+                          </a>
+                      </div>
+                      <!--random cat print image-->
+                      <div class="col-md-4">
+                          <a class="nav-link disabled" href="#">
+                              <img src="./assets/cat-prints.png" width="50" style="margin: 5%">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+h3 {
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-bottom-color: lightgray;
+}
+h1 {
+    border-bottom-style: solid;
+    border-bottom-width: 2;
+    border-bottom-color: black;
+}
+
+#right-line {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: gray;
+    padding-right: 3%;
+}
+
+body {
+    background-image: url(../assets/grey.png)
+}
+
+#img-border {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
